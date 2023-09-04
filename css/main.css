@@ -49,7 +49,7 @@ ol {
 
 .container {
   margin: 0 auto;
-  width: 700px;
+  width: 900px;
 }
 
 .flex {
@@ -77,4 +77,17 @@ header {
 
 .menu {
   justify-content: space-between;
+}
+
+/* MAIN CONTENT */
+
+.hero-container {
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  height: 300px;
+  flex-basis: 600px;
 }
