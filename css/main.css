@@ -27,6 +27,10 @@ ol {
   background-color: aqua;
 }
 
+.bg-gray {
+  background-color: gray;
+}
+
 .bg-pink {
   background-color: pink;
 }
@@ -68,6 +72,21 @@ ol {
   padding: 8px;
 }
 
+.row-8 {
+  flex-basis: calc(100% / 12 * 8);
+  height: 300px;
+}
+
+.row-4 {
+  flex-basis: calc(100% / 12 * 4);
+  height: 300px;
+}
+
+.row-12 {
+  flex-basis: calc(100% / 12 * 12);
+  height: 600px;
+}
+
 /* HEADER */
 
 header {
@@ -90,4 +109,16 @@ header {
 .hero-content {
   height: 300px;
   flex-basis: 600px;
+}
+
+.section-container {
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-section-container {
+  height: 800px;
+  justify-content: center;
+  align-items: center;
 }
