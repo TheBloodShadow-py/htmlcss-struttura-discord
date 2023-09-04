@@ -39,8 +39,16 @@ ol {
   background-color: blue;
 }
 
+.bg-black {
+  background-color: rgb(39, 39, 39);
+}
+
 .bg-red {
   background-color: red;
+}
+
+.bg-white {
+  background-color: white;
 }
 
 .bg-cyan {
@@ -72,18 +80,31 @@ ol {
   padding: 8px;
 }
 
-.row-8 {
-  flex-basis: calc(100% / 12 * 8);
-  height: 300px;
+.row-2 {
+  flex-basis: calc(100% / 12 * 2);
 }
 
 .row-4 {
   flex-basis: calc(100% / 12 * 4);
-  height: 300px;
+}
+
+.row-8 {
+  flex-basis: calc(100% / 12 * 8);
 }
 
 .row-12 {
   flex-basis: calc(100% / 12 * 12);
+}
+
+.h-300 {
+  height: 300px;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.h-600 {
   height: 600px;
 }
 
@@ -121,4 +142,22 @@ header {
   height: 800px;
   justify-content: center;
   align-items: center;
+}
+
+/* FOOTER */
+
+.big-footer-container {
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-hr {
+  height: 2px;
 }
